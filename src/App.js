@@ -4,6 +4,7 @@ import HelloWorld from './HelloWorld';
 import GoodBy from './GoodBy';
 import Age from './Age';
 import Counter from './Counter';
+import NameForm from './NameForm';
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
         <HelloWorld/>
         <GoodBy/>
         <Age name="Ali" age = {6}/>
-        <Counter/>
+        <Counter/><br></br>
+        <NameForm/>
+
         
         
      
