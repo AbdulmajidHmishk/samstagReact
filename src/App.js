@@ -5,6 +5,7 @@ import GoodBy from './GoodBy';
 import Age from './Age';
 import Counter from './Counter';
 import NameForm from './NameForm';
+import ToggleMessage from './ToggleMessage';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <Age name="Ali" age = {6}/>
         <Counter/><br></br>
         <NameForm/>
+
+        <br></br>
+        <ToggleMessage/>
 
         
         
